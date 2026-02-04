@@ -80,8 +80,8 @@ export const FAQ_ITEMS: FAQItem[] = [
 ];
 
 export const PORTFOLIO_ITEMS: PortfolioItem[] = [
-  { id: 1, title: "Landing Page - AC CLIMA", category: "Climatização", imageUrl: "https://picsum.photos/seed/atlas1/600/400" },
-  { id: 2, title: "Landing Page - GM CLIMATIZAÇÃO E ELÉTRICA", category: "Climatização e elétrica", imageUrl: "https://picsum.photos/seed/atlas2/600/400" },
-  { id: 3, title: "Landing Page - Climar Soluções", category: "Climatização", imageUrl: "https://picsum.photos/seed/atlas3/600/400" },
-  { id: 4, title: "Landing Page - Mattos Elétrica e Automação", category: "Elétrica e automação", imageUrl: "https://picsum.photos/seed/atlas4/600/400" },
-  { id: 5, title: "Landing Page e Sistema de Orçamento - VOERAPIDO.com", category: "Agência de Turismo", imageUrl: "https://picsum.photos/seed/atlas5/600/400" }];
+  { id: 1, title: "Landing Page - AC CLIMA", category: "Climatização", imageUrl: "/images/acclimape.webp" },
+  { id: 2, title: "Landing Page - GM CLIMATIZAÇÃO E ELÉTRICA", category: "Climatização e elétrica", imageUrl: "/images/gmclimape.webp" },
+  { id: 3, title: "Landing Page - Climar Soluções", category: "Climatização", imageUrl: "/images/climarrecife.webp" },
+  { id: 4, title: "Landing Page - Mattos Elétrica e Automação", category: "Elétrica e automação", imageUrl: "#" },
+  { id: 5, title: "Landing Page e Sistema de Orçamento - VOERAPIDO.com", category: "Agência de Turismo", imageUrl: "#" }];
