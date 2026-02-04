@@ -65,21 +65,32 @@ const Header: React.FC = () => {
       animate={{ y: 0 }}
       transition={{ duration: 0.6, ease: [0.22, 1, 0.36, 1] }}
       className={`fixed top-0 w-full z-50 transition-all duration-300 ${
-        isScrolled ? 'bg-atlas-bg/90 backdrop-blur-md border-b border-atlas-support' : 'bg-transparent'
+        isScrolled
+          ? 'bg-atlas-bg/90 backdrop-blur-md border-b border-atlas-support'
+          : 'bg-transparent'
       }`}
     >
       <nav className="max-w-7xl mx-auto px-6 h-20 flex items-center justify-between">
-        <motion.div className="flex items-center gap-3 group cursor-pointer" whileHover={{ x: 5 }}>
-          {/* Frosted glass logo container */}
+        <motion.div
+          className="flex items-center gap-3 group cursor-pointer"
+          whileHover={{ x: 5 }}
+        >
+          {/* Logo */}
           <div className="flex items-center justify-center">
-  <img
-    src="/images/logo.svg"
-    alt="Atlas"
-    className="w-10 h-10 md:w-12 md:h-12"
-  />
-</div>
+            <img
+              src="/images/logo.svg"
+              alt="Atlas"
+              className="w-10 h-10 md:w-12 md:h-12"
+            />
+          </div>
 
-          <span className="text-xl font-bold tracking-tight">ATLAS</span>
+          {/* ATLAS + subtítulo */}
+          <div className="flex flex-col leading-tight">
+            <span className="text-xl font-bold tracking-tight">ATLAS</span>
+            <span className="text-[11px] md:text-xs text-atlas-secondary tracking-widest uppercase">
+              Soluções digitais
+            </span>
+          </div>
         </motion.div>
 
         <div className="hidden md:flex items-center gap-8 text-sm font-medium text-atlas-secondary">
@@ -102,7 +113,10 @@ const Header: React.FC = () => {
           </motion.a>
         </div>
 
-        <button className="md:hidden text-white" onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)}>
+        <button
+          className="md:hidden text-white"
+          onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)}
+        >
           {isMobileMenuOpen ? <X size={24} /> : <Menu size={24} />}
         </button>
       </nav>
