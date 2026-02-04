@@ -80,10 +80,8 @@ export const FAQ_ITEMS: FAQItem[] = [
 ];
 
 export const PORTFOLIO_ITEMS: PortfolioItem[] = [
-  { id: 1, title: "Plataforma Logística X", category: "SaaS Industrial", imageUrl: "https://picsum.photos/seed/atlas1/600/400" },
-  { id: 2, title: "Portal de Agendamento MedCenter", category: "Healthcare", imageUrl: "https://picsum.photos/seed/atlas2/600/400" },
-  { id: 3, title: "Sistema de Orçamentos Construe", category: "Engenharia", imageUrl: "https://picsum.photos/seed/atlas3/600/400" },
-  { id: 4, title: "Dashboard Enterprise v2", category: "Fintech", imageUrl: "https://picsum.photos/seed/atlas4/600/400" },
-  { id: 5, title: "Operação Global Trade", category: "Comércio Exterior", imageUrl: "https://picsum.photos/seed/atlas5/600/400" },
-  { id: 6, title: "Alpha Core Systems", category: "Tecnologia", imageUrl: "https://picsum.photos/seed/atlas6/600/400" }
-];
+  { id: 1, title: "Landing Page - AC CLIMA", category: "Climatização", imageUrl: "https://picsum.photos/seed/atlas1/600/400" },
+  { id: 2, title: "Landing Page - GM CLIMATIZAÇÃO E ELÉTRICA", category: "Climatização e elétrica", imageUrl: "https://picsum.photos/seed/atlas2/600/400" },
+  { id: 3, title: "Landing Page - Climar Soluções", category: "Climatização", imageUrl: "https://picsum.photos/seed/atlas3/600/400" },
+  { id: 4, title: "Landing Page - Mattos Elétrica e Automação", category: "Elétrica e automação", imageUrl: "https://picsum.photos/seed/atlas4/600/400" },
+  { id: 5, title: "Landing Page e Sistema de Orçamento - VOERAPIDO.com", category: "Agência de Turismo", imageUrl: "https://picsum.photos/seed/atlas5/600/400" };
