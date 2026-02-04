@@ -84,4 +84,4 @@ export const PORTFOLIO_ITEMS: PortfolioItem[] = [
   { id: 2, title: "Landing Page - GM CLIMATIZAÇÃO E ELÉTRICA", category: "Climatização e elétrica", imageUrl: "/images/gmclimape.webp" },
   { id: 3, title: "Landing Page - Climar Soluções", category: "Climatização", imageUrl: "/images/climarrecife.webp" },
   { id: 4, title: "Landing Page - Mattos Elétrica e Automação", category: "Elétrica e automação", imageUrl: "/images/mattoseletrica.webp" },
-  { id: 5, title: "Landing Page e Sistema de Orçamento - VOERAPIDO.com", category: "Agência de Turismo", imageUrl: "#" }];
+  { id: 5, title: "Landing Page e Sistema de Orçamento - VOERAPIDO.com", category: "Agência de Turismo", imageUrl: "/images/voerapido.webp" }];
