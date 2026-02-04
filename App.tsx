@@ -71,9 +71,13 @@ const Header: React.FC = () => {
       <nav className="max-w-7xl mx-auto px-6 h-20 flex items-center justify-between">
         <motion.div className="flex items-center gap-3 group cursor-pointer" whileHover={{ x: 5 }}>
           {/* Frosted glass logo container */}
-          <div className="w-10 h-10 rounded-xl bg-white/10 border border-white/15 backdrop-blur-md flex items-center justify-center shadow-[0_0_30px_rgba(0,166,200,0.12)]">
-            <img src="/images/logo.svg" alt="Atlas" className="w-6 h-6" />
-          </div>
+          <div className="flex items-center justify-center">
+  <img
+    src="/images/logo.svg"
+    alt="Atlas"
+    className="w-10 h-10 md:w-12 md:h-12"
+  />
+</div>
 
           <span className="text-xl font-bold tracking-tight">ATLAS</span>
         </motion.div>
