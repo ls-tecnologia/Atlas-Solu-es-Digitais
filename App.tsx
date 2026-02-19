@@ -48,6 +48,43 @@ const Counter: React.FC<{ target: number; suffix?: string }> = ({ target, suffix
   );
 };
 
+// --- Section Divider Component ---
+const SectionDivider: React.FC = () => {
+  return (
+    <div className="relative flex items-center justify-center py-24">
+      
+      {/* Linha esquerda */}
+      <div className="flex-1 h-px bg-gradient-to-r 
+                      from-transparent via-atlas-support 
+                      to-atlas-primary/60 opacity-40" />
+
+      {/* Centro com Logo */}
+      <motion.div
+        initial={{ opacity: 0, scale: 0.95 }}
+        whileInView={{ opacity: 1, scale: 1 }}
+        transition={{ duration: 0.6 }}
+        viewport={{ once: true }}
+        className="mx-8 w-20 h-20 rounded-full 
+                   border border-atlas-primary/20 
+                   bg-atlas-surface/80 backdrop-blur-md
+                   flex items-center justify-center
+                   shadow-[0_0_35px_rgba(0,166,200,0.15)]"
+      >
+        <img
+          src="/images/logo.svg"
+          alt="Atlas"
+          className="w-9 h-9 opacity-95"
+        />
+      </motion.div>
+
+      {/* Linha direita */}
+      <div className="flex-1 h-px bg-gradient-to-l 
+                      from-transparent via-atlas-support 
+                      to-atlas-primary/60 opacity-40" />
+    </div>
+  );
+};
+
 // --- Header Component ---
 const Header: React.FC = () => {
   const [isScrolled, setIsScrolled] = useState(false);
