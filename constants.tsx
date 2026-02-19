@@ -81,5 +81,5 @@ export const FAQ_ITEMS: FAQItem[] = [
 
 export const PORTFOLIO_ITEMS: PortfolioItem[] = [
   { id: 1, title: "Landing Page - AC CLIMA", category: "Climatização", imageUrl: "/images/acclimape.webp" , liveUrl: "https://acclimape.com.br" },
-  { id: 2, title: "Landing Page - Mattos Elétrica e Automação", category: "Elétrica e automação", imageUrl: "/images/mattoseletrica.webp", liveUrl: "https://mattoseletricaeautomação.com.br" },
+  { id: 2, title: "Landing Page - Mattos Elétrica e Automação", category: "Elétrica e automação", imageUrl: "/images/mattoseletrica.webp", liveUrl: "https://xn--mattoseletricaeautomao-x4b9g.com.br" },
   { id: 3, title: "Landing Page e Sistema de Orçamento - VOERAPIDO.com", category: "Agência de Turismo", imageUrl: "/images/voerapido.webp", liveUrl: "https://voerapido.com" }];
