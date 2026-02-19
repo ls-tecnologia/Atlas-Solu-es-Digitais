@@ -624,7 +624,7 @@ const App: React.FC = () => {
             </motion.div>
           </div>
         </section>
-
+        <SectionDivider />
         {/* PORTFOLIO SECTION */}
         <section id="cases" className="py-32 px-6 bg-atlas-surface/30">
           <div className="max-w-7xl mx-auto">
@@ -677,7 +677,7 @@ const App: React.FC = () => {
             </motion.div>
           </div>
         </section>
-        <SectionDivider />
+
         {/* FINAL CTA SECTION */}
         <section id="contato" className="py-32 px-6 border-t border-atlas-support bg-gradient-to-b from-atlas-bg to-atlas-surface">
           <div className="max-w-7xl mx-auto">
