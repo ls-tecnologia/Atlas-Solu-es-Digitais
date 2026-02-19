@@ -663,44 +663,6 @@ const App: React.FC = () => {
           </div>
         </section>
 
-        {/* WHY IT WORKS SECTION */}
-        <section className="py-32 px-6">
-          <div className="max-w-7xl mx-auto">
-            <motion.div
-              initial={{ opacity: 0, scale: 0.95 }}
-              whileInView={{ opacity: 1, scale: 1 }}
-              viewport={{ once: true }}
-              className="bg-atlas-primary rounded-3xl p-12 md:p-20 overflow-hidden relative"
-            >
-              <motion.div
-                animate={{ x: [0, 50, 0] }}
-                transition={{ duration: 10, repeat: Infinity, ease: 'easeInOut' }}
-                className="absolute top-0 right-0 w-1/2 h-full bg-white/5 skew-x-12 translate-x-1/2 pointer-events-none"
-              />
-              <div className="grid md:grid-cols-3 gap-12 relative z-10 text-center md:text-left">
-                <div>
-                  <div className="text-5xl font-bold text-white mb-2">
-                    <Counter target={99.9} suffix="%" />
-                  </div>
-                  <p className="text-white/80 font-medium">Uptime garantido por SLA em nossas soluções enterprise.</p>
-                </div>
-                <div>
-                  <div className="text-5xl font-bold text-white mb-2">
-                    <Counter target={250} suffix="+" />
-                  </div>
-                  <p className="text-white/80 font-medium">Empresas que migraram de sistemas legados para Atlas.</p>
-                </div>
-                <div>
-                  <div className="text-5xl font-bold text-white mb-2">
-                    &lt;<Counter target={2} suffix="s" />
-                  </div>
-                  <p className="text-white/80 font-medium">Tempo médio de carregamento de nossas interfaces.</p>
-                </div>
-              </div>
-            </motion.div>
-          </div>
-        </section>
-
         {/* FAQ SECTION */}
         <section className="py-32 px-6 bg-atlas-bg">
           <div className="max-w-3xl mx-auto">
