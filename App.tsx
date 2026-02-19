@@ -560,8 +560,9 @@ const App: React.FC = () => {
                       href="#contato"
                       whileTap={{ scale: 0.98 }}
                       onClick={() => setFormData((prev) => ({ ...prev, interest: `${pkg.title} (Entrega ${pkg.deliveryTime})` }))}
-                      className=className="w-full py-4 rounded-xl font-bold transition-all block text-center
-           bg-atlas-primary text-white hover:brightness-110 active:scale-[0.99]"
+                      className={`w-full py-4 rounded-xl font-bold transition-all block text-center ${
+                        pkg.highlight ? 'bg-atlas-primary text-white hover:brightness-110' : 'bg-atlas-bg border border-atlas-support text-white hover:border-atlas-primary'
+                      }`}
                     >
                       Selecionar Solução
                     </motion.a>
